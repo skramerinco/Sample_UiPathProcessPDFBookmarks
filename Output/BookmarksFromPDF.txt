@@ -1,0 +1,5 @@
+<Bookmark>
+  <Title Page="1 XYZ 36 806" Action="GoTo" Color="0 0 0">Introduction</Title>
+  <Title Page="1 XYZ 36 410" Action="GoTo" Color="0 0 0">Getting Started
+    <Title Page="1 XYZ 36 364" Action="GoTo" Color="0 0 0">Printing a test page</Title><Title Page="4 XYZ 36 740" Action="GoTo" Color="0 0 0">Accessing the novaPDF Printing Preferences – test the multiline bookmark detection option</Title><Title Page="5 XYZ 36 806" Action="GoTo" Color="0 0 0">Creating PDF Files</Title></Title>
+</Bookmark>

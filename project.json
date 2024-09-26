@@ -1,0 +1,69 @@
+{
+  "name": "Sample_ProcessPDF",
+  "projectId": "1b439589-e775-4e2a-b297-6b1b6ce87f76",
+  "description": "Sample automation that extracts bookmarks from a PDF file using a coded automation and exports them to a text file. ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "iTextSharp-LGPL-Core": "[1.2.0]",
+    "UiPath.CodedWorkflows": "[24.2.0-alpha.4786647]",
+    "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.7]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "dadc286e-87d6-44d6-87d0-28b078f6df6b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "extract_bookmarks.cs",
+      "uniqueId": "b8e07160-7f77-4b31-90c6-dc887cee48b7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
